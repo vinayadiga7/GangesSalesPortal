@@ -30,6 +30,7 @@ public class RegistrationService {
 			customerBean.setPincode(customerEntity.getPinCode());
 			customerBean.setState(customerEntity.getState());
 			customerBean.setUsername(customerEntity.getUsername());
+			System.out.println("Change to push into Git Repo");
 		
 		return customerBean;
 	}
