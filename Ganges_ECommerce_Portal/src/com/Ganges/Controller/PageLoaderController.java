@@ -44,6 +44,7 @@ public class PageLoaderController {
 		modelAndView.addObject("productList", productList);
 		modelAndView.setViewName("CustomerHomePage");
 		System.out.println("After getting productlist "+productList.size());
+		System.out.println("From Second commit - Controller");
 		return modelAndView;
 	}
 	
