@@ -1,0 +1,164 @@
+.loginPage {
+	background-image: url('../images/backgroundImage3.jpg'); 
+	background-position: absolute;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;	
+	
+}
+
+
+.welcomePage {
+	/* background-image: url('../images/backgroundImage2.jpg'); */
+	background-color:white;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: absolute;
+	
+}
+
+.indexPage {
+	background-image: url('../images/backgroundImage.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: absolute;
+	
+}
+
+.container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
+  color: orange;
+}
+
+html, body {
+	box-sizing: border-cox;
+	height: 100%;
+}
+
+
+.container {
+	border:5px solid #ffcc5c; 	
+  	display: flex;
+  	background-color: green;
+  	justify-content: flex-end;
+  	/* align-items: stretch; */
+}
+
+.logout{
+	margin-left: auto;
+}
+
+.home{
+	margin-right: auto;
+}
+
+
+.containerForProducts {
+	display: flex;
+	background-color: #8080ff;
+	flex-direction: column;
+	justify-content :flex-start;
+	height: 1500px;
+}
+
+.containerForEachProduct{
+	border:3px solid coral;
+	display: flex;
+	padding: 30px;
+	background-color:aquamarine;
+	justify-content: space-around;
+	height: 200px;
+	width: 600px;
+}
+
+.containerForTwoProductRows{
+	display:flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.containerForProductDetailsRow{
+	display: flex;
+	padding: 30px;
+	background-color:violet;
+	justify-content: space-around;
+}
+
+.containerForProductDetailsColumnForContent{
+	display: flex;
+	flex-direction: column;
+	background-color:aquamarine;
+	height: 500px;
+	width: 500px;
+}
+
+.containerForProductDetailsColumnForImage{
+	display: flex;
+	flex-direction:column;
+	justify-content: space-around;
+	height: 500px;
+	width: 400px;
+	background-color: white;
+}
+button {
+	padding: 5px;
+	border-radius:4px;
+	width: 200px;
+	height: 50px;
+	background-color: #F5CC15;
+}
+
+.containerMyKartProductColumn {
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;	
+}
+
+.containerMyKartProductRow  {
+	border: 1em solid #F5F515;
+	display: flex;
+	background-color: #7BF515;
+	justify-content: space-around;
+	height: 250px;
+	width: 700px;
+	padding: 30px;
+}
+
+.containerMyKartProductImage{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.containerForOrders{
+	display: flex;
+	flex-direction: column;
+	border: 2em solid #2A1B3D;
+}
+
+.containerForEachOrder{
+	border: 2em solid #E98074;
+	display: flex;
+	flex-direction: row;
+	 background-color: #44318D; 
+	padding: 20px;
+	justify-content: space-around;
+	height: 400px;
+}
+
+.containerForTransaction{
+	display: flex;
+	background-color: #5AB9EA;
+	flex-direction: column;
+	padding:40px; 
+	height: 100px;
+	width: 700px;
+	border: 1em solid #5680E9;
+}
+
+h1 {
+	color: red;
+}
+
